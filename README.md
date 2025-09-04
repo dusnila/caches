@@ -4,7 +4,8 @@
 
 данная репазитория позволяет записывать значение в кэш в виде Key-value
     
-    ```go
+```go
+
 	cache := cache.New()
 
 	cache.Set("userId", 42)
@@ -16,7 +17,8 @@
 	userId = cache.Get("userId")
 
 	fmt.Println(userId)
-    ```
+
+```
 
     в этой директории находится 3 мемтода а так же инициалищация 
 
